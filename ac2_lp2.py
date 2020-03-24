@@ -175,85 +175,85 @@ class Gato(Mamifero):
 def main():
     #Teste do Camaleao
     print("Teste do Camaleão:")
-    Jonny=Camaleao("Jonny", "preto", 7, "grilo")
-    print(Jonny.__dict__)
-    print(Jonny.comer_inseto())
-    print(Jonny.mudar_de_cor())
-    print(Jonny.tomar_sol())
-    print(Jonny.botar_ovo())
+    Rafa=Camaleao("Rafa", "cinza", 7, "grilo")
+    print(Rafa.__dict__)
+    print(Rafa.comer_inseto())
+    print(Rafa.mudar_de_cor())
+    print(Rafa.tomar_sol())
+    print(Rafa.botar_ovo())
     
     #Teste do Jacaré
     print("Teste do jacaré:")
-    GabbyGator=Jacare("GabbyGator", "amarelo", 1, 76)
-    print(GabbyGator.__dict__)
-    print(GabbyGator.tomar_sol())
-    print(GabbyGator.botar_ovo())
-    print(GabbyGator.atacar())
-    print(GabbyGator.dormir())
+    Mel=Jacare("Mel", "branco", 5, 81)
+    print(Mel.__dict__)
+    print(Mel.tomar_sol())
+    print(Mel.botar_ovo())
+    print(Mel.atacar())
+    print(Mel.dormir())
 
     #Teste da Cobra
     print("Teste da Cobra:")
-    Celeste=Cobra("Celeste", "rosa", 3, True)
-    print(Celeste.__dict__)
-    print(Celeste.tomar_sol())
-    print(Celeste.botar_ovo())
-    print(Celeste.rastejar())
-    print(Celeste.trocar_pele())
+    Sogra=Cobra("Sogra", "verde", 3, True)
+    print(Sogra.__dict__)
+    print(Sogra.tomar_sol())
+    print(Sogra.botar_ovo())
+    print(Sogra.rastejar())
+    print(Sogra.trocar_pele())
 
     #Teste do Cachorro
     print("Teste do Cachorro:")
-    Spike=Cachorro("Spike", "prata", 4, "garra", "Buldogue Inglês")
-    print(Spike.__dict__)
-    print(Spike.correr())
-    print(Spike.mamar())
-    print(Spike.latir())
-    print(Spike.rosnar())
+    Lily=Cachorro("Lily", "preto", 4, "garra", "SRD")
+    print(Lily.__dict__)
+    print(Lily.correr())
+    print(Lily.mamar())
+    print(Lily.latir())
+    print(Lily.rosnar())
 
     #Teste do Cavalo
     print("Teste do Cavalo:")
-    PedePano=Cavalo("Pé de Pano", "branco", 3, "Casco", "preto")
-    print(PedePano.__dict__)
-    print(PedePano.correr())
-    print(PedePano.mamar())
-    print(PedePano.galopar())
-    print(PedePano.relinchar())
+    Iran=Cavalo("Iran", "branco", 3, "Casco", "amarelo")
+    print(Iran.__dict__)
+    print(Iran.correr())
+    print(Iran.mamar())
+    print(Iran.galopar())
+    print(Iran.relinchar())
     
     #Teste do Gato
     print("Iniciando os testes do Gato...")
-    #Primeiro Gato chamado Tom
+    #Primeiro Gato chamada Cristal
     print("Primeiro teste do Gato:")
-    Tom=Gato("Tom", "branco", 5, "garra")
-    print(Tom.__dict__)
-    print(Tom.correr())
-    print(Tom.mamar())
-    print(Tom.miar())
+    Cristal=Gato("Cristal", "malhada", 5, "garra")
+    print(Cristal.__dict__)
+    print(Cristal.correr())
+    print(Cristal.mamar())
+    print(Cristal.miar())
 
-    #Matando o Tom 7 vezes com método de repetição e verificando 2 vezes se ele morreu
-    print("{} nasceu com {} vidas".format(Tom.nome, Tom.vidas))
-    # Essa primeira linha (anterior) serve para mostrar com quantas vidas Tom foi criado
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
-    print(Tom.morrer())
+    #Matando a Cristal 7 vezes com método de repetição e verificando 2 vezes se ela morreu
+    print("{} nasceu com {} vidas".format(Cristal.nome, Cristal.vidas))
+    # Essa primeira linha (anterior) serve para mostrar com quantas vidas Cristal foi criado
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
+    print(Cristal.morrer())
 
-    #Segundo gato chamado Geni
+    #Segundo gato chamado Faisca
     print("Segundo teste do Gato:")
-    Geni=Gato("Geni", "marrom", 1, "garra")
-    print(Geni.__dict__)
-    print(Geni.correr())
-    print(Geni.mamar())
-    print(Geni.miar())
+    Faisca=Gato("Faisca", "preto", 1, "garra")
+    print(Faisca.__dict__)
+    print(Faisca.correr())
+    print(Faisca.mamar())
+    print(Faisca.miar())
     
-    #Matando a Geni 7 vezes com método de loop e verificando 2 vezes se ela morreu
-    print("{} nasceu com {} vidas".format(Geni.nome, Geni.vidas))
-    # Essa linha (anterior) serve para mostrar com quantas vidas Geni foi criada
+    #Matando o Faisca 7 vezes com método de loop e verificando 2 vezes se ele morreu
+    print("{} nasceu com {} vidas".format(Faisca.nome, Faisca.vidas))
+    # Essa linha (anterior) serve para mostrar com quantas vidas Faisca foi criado
     for i in range(0, 9):
-        print(Geni.morrer())
+        print(Faisca.morrer())
         i=i-1
 
 if __name__ == "__main__":
