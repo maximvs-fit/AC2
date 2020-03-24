@@ -1,7 +1,7 @@
     # Linguagem de Programação II
 # Atividade Contínua 02 - Classes e Herança
 #
-# e-mail: djalma.lima@aluno.faculdadeimpacta.com.br
+# e-mail: naira.cunha@aluno.faculdadeimpacta.com.br
 
 """
 Implementar aqui as cinco classes filhas de Mamifero ou Reptil,
