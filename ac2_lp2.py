@@ -1,4 +1,4 @@
-    # Linguagem de Programação II
+# Linguagem de Programação II
 # Atividade Contínua 02 - Classes e Herança
 #
 # e-mail: naira.cunha@aluno.faculdadeimpacta.com.br
